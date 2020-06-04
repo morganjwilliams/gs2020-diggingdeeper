@@ -1,0 +1,14 @@
+# the following is required for ipyvolume widgets
+jupyter-nbextension enable widgetsnbextension --py
+
+# for ipyvolume, if using lab:
+# jupyter labextension install @jupyter-widgets/jupyterlab-manager
+# jupyter labextension install ipyvolume
+# jupyter labextension install jupyter-threejs
+
+# make sure we have a place where we can pick up the custom template
+mkdir ~/.jupyter/voila/templates/
+cp -r ./custom/ ~/.jupyter/voila/templates/
+
+# alias viola to default to using extensions and our custom template for styling
+alias voila="voila --template=custom --enable_nbextensions=True"
