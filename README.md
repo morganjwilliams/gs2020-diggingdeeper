@@ -3,6 +3,7 @@
 <a href="https://github.com/morganjwilliams/gs2020-diggingdeeper/blob/master/LICENSE" >
 <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT License">
 </a>
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3875779.svg)](https://doi.org/10.5281/zenodo.3875779)
 
 
 This is a Binder-enabled repository to accompany the abstract
