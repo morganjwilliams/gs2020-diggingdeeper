@@ -7,5 +7,8 @@ jupyter-nbextension enable widgetsnbextension --py
 # jupyter labextension install jupyter-threejs
 
 # make sure we have a place where we can pick up the custom template
-mkdir ~/.jupyter/voila/templates/
+mkdir -p ~/.jupyter/voila/templates/
+mkdir -p  ~/.local/share/jupyter/voila/templates
+
 cp -r ./custom/ ~/.jupyter/voila/templates/
+cp -r ./custom/ ~/.local/share/jupyter/voila/templates
