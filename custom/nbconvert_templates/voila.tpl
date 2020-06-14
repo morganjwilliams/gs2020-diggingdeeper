@@ -28,6 +28,9 @@
 .highlight  {
   margin: 0.4em;
 }
+table {
+  float: left
+}
 </style>
 
 {{ mathjax() }}
