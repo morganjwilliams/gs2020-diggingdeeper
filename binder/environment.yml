@@ -13,7 +13,6 @@ dependencies:
   - ipyvolume
   - widgetsnbextension
   - imagemagick
-  - jupytext
   - nodejs # if using ipyvolume and lab
   - pip:
       - jupyter_contrib_nbextensions
